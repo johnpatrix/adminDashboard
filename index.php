@@ -19,7 +19,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["submit"]) ){//trying to
 				$_SESSION['user_id']= $dataum['user_id'];
 				$_SESSION['user_name']= $dataum['user_name'];
 				$_SESSION['user_type']=  $dataum['user_type'];				
-				header('location:home.php');				 
+				header('location:home.php');
+					exit;
 			}//end foreach
 
 		}//end if	
@@ -41,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["submit"]) ){//trying to
 		<div class="wrapper fadeInDown">
 			  <div id="formContent">
 			    <!-- Tabs Titles -->
-			    <h4>Administration Branch</h4>
+			    <h4>Administration Branch Kohima</h4>
 			    <!-- Icon -->
 			    <div class="fadeIn first">
 			      <img src="images/nic_logo.png" id="icon" alt="User Icon" width="150px" height="100px" />

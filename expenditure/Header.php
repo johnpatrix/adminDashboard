@@ -6,14 +6,6 @@
      header('location:../index.php');
   };
 
-
-  if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["logout"]) ){//trying to write to the file
-    $_SESSION['user_name'] = "";
-    session_destroy();
-    header('location:../index.php');
-  }
-
-
 ?>
 <div>
 		<link rel="stylesheet" href="css/bootstrap.min.css">		
@@ -63,7 +55,7 @@
 	  -->
     </form>
     &nbsp&nbsp&nbsp
-     <form class="form-inline my-2 my-lg-0" action="Header.php" method="post">      
+     <form class="form-inline my-2 my-lg-0" action="../home.php" method="post">      
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="logout">Logout</button>
     </form>
   </div>

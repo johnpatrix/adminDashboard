@@ -11,6 +11,16 @@
 		fwrite($myFileLink2, $fileContent);
 		fclose($myFileLink2);
 	}
+	
+	
+	
+  if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["logout"]) ){//trying to write to the file
+	unset($_SESSION['user_name']);
+    session_destroy();
+	//echo $_SESSION['user_name'];
+    header('location:index.php');
+	//exit();
+  }
 ?>
 
 <html>
