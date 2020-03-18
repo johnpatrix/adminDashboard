@@ -67,6 +67,9 @@
 				 <p class="alert alert-info">
 			  			  <a href="http://parichay.nic.in" target="_blank">PARICHAY (DIGITAL) NIC</a>
 			   	 </p>
+				  <p class="alert alert-info">
+			  			  <a href="https://nicng.attendance.gov.in/" target="_blank">Aadhaar Enabled Bio-metric Attendance System(AE-BAS)</a>
+			   	 </p>
 
 			  </div>
 			 
