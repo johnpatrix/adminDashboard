@@ -11,12 +11,12 @@
     "example": "examples"
   },
   "peerDependencies": {
-    "jspdf": "^1.5.3"
+    "jspdf": "^2.3.1"
   },
   "devDependencies": {
     "@webpack-cli/migrate": "^0.1.8",
     "dts-bundle-generator": "^3.1.0",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "mocha": "^6.2.0",
     "mock-browser": "^0.92.14",
     "mock-require": "^3.0.3",
